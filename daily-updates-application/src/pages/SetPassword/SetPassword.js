@@ -25,6 +25,7 @@ export class SetPassword extends Component {
       console.log(this.state.newPassword);
       localStorage.setItem("password", this.state.newPassword);
       thisView.props.history.push("/profile");
+      alert("your Password has been Updated Successfully")
     } else {
       this.setState({
         error: true,

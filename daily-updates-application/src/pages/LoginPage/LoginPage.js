@@ -25,6 +25,7 @@ export class LoginPage extends Component {
       console.log("username..");
       thisView.props.history.push("/profile");
       localStorage.setItem("password", this.state.password);
+      alert('logged in Successfully')
     } else {
       this.setState({
         error: true,

@@ -39,6 +39,7 @@
   display: flex;
   flex-direction: column;
   min-width: 0;
+  min-height: 90vh;
   word-wrap: break-word;
   background-color: white;
   background-clip: border-box;
@@ -214,6 +215,10 @@ p {
 }
 .profile-feed-item {
   margin-top: 20px;
+  min-height: 80vh;
+  font-size: 1.75rem !important;
+  color: black;
+  font-weight: 500;
 }
 #nav-dropdown {
   color: rgb(125, 119, 119);
@@ -232,8 +237,9 @@ p {
   background: white;
   padding: 10px;
   margin: 5px 0px 5px 0px;
-
-  color: rgb(125, 119, 119);
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: black;
   box-shadow: 0 0 10px lightgray;
 }
 /* color:#39465c; */
@@ -244,13 +250,29 @@ p {
   margin: 5px 0px 5px 0px;
   color: #fff;
 }
+.info {
+  background: white;
+  border-radius: 5px;
+  margin-top: 20p;
+  padding-top: 10px;
+  color: black;
+}
+.color_text {
+  background: white;
+  padding: 10px;
+  margin: 5px 0px 5px 0px;
+  border-radius: 5px;
+  color: black;
+  font-size: 1.5rem !important;
+}
 
 .about_text {
   background: white;
   padding: 10px;
   margin: 5px 0px 5px 0px;
   border-radius: 5px;
-  color: rgb(125, 119, 119);
+  color: black;
+  font-size: 1.75rem !important;
 }
 .fb {
   color: #007bff;

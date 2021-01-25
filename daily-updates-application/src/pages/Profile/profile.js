@@ -36,7 +36,7 @@ export class Profile extends Component {
                             <h5 className="mb-0 mr-2 text-muted"> Indian </h5>
                           </div>
                         </div>
-                        <p className="w-75 mx-auto mb-3">
+                        <p className="w-75 mx-auto mb-3 color_text">
                           Bureau Oberhaeuser is a design bureau focused on
                           Information - and Interface Design.
                         </p>
